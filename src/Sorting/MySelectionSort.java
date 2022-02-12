@@ -1,5 +1,4 @@
 package Sorting;
-
 import java.util.Arrays;
 
 /*
@@ -36,6 +35,7 @@ public class MySelectionSort {
             }
             System.out.println("maximum = " + maximumElement);
             //step 4 swap
+
             System.out.println("swapping --> " + arr[maximumElementIndex] + " with --> " + arr[sortedIndex - 1]);
             int temp = arr[maximumElementIndex];
             sortedIndex--;
