@@ -10,7 +10,7 @@ import java.util.Arrays;
 public class MyBubbleSort {
 
     public static void main(String[] args) {
-        int[] arr = {100, 80, 60, 40, 20};
+        int[] arr = {50, 80, 60, 40, 20};
         MyBubbleSort obj = new MyBubbleSort();
         obj.bubbleSort(arr);
         System.out.println("sorted --> " + Arrays.toString(arr));
